@@ -40,6 +40,11 @@ nav ul li a {
   text-decoration: none;
 }
 
+nav ul li a.active {
+  color: #ff7f00; /* Tıklanınca turuncu olacak */
+  font-weight: bold;
+}
+
 .language-toggle {
   flex: 1; /* Sağda kalması için */
   text-align: right;
