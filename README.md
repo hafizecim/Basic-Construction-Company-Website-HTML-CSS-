@@ -82,6 +82,5 @@ Bu proje, **İnşaat Garimenkul** firmasının tanıtım web sitesidir. HTML, CS
 Bu proje kişisel ve eğitim amaçlıdır. Ticari kullanım için izin gereklidir.
 
 ---
-```
 
 
