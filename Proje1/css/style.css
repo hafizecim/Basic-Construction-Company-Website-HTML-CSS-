@@ -112,3 +112,23 @@ button { padding: 10px 20px; background: #ff7f00; border: none; color: #fff; cur
   font-size: 1em;
   line-height: 1.4;
 }
+
+
+/* Hakkımızda Bölümü */
+.about-content { text-align:center; padding:10px; font-size:0.9em; }
+
+/* Timeline */
+.timeline { display:flex; justify-content:center; gap:8px; margin:10px 0; flex-wrap:wrap; }
+.timeline-item { background:rgba(255,127,0,0.8); padding:5px 8px; border-radius:6px; min-width:70px; font-size:0.8em; }
+.timeline-item span { display:block; font-weight:bold; margin-bottom:2px; }
+
+/* Misyon & Vizyon & Değerler Kartları */
+.mv-values { display:flex; flex-wrap:wrap; justify-content:center; gap:8px; margin:15px 0; }
+.mv-card { background:rgba(0,0,0,0.6); padding:5px; border-radius:6px; min-width:140px; color:#fff; flex:1 1 150px; font-size:0.85em; }
+
+/* Takım */
+.team { display:flex; flex-wrap:wrap; justify-content:center; gap:8px; margin-top:10px; }
+.team-member { background:rgba(255,255,255,0.1); padding:3px; border-radius:6px; width:100px; color:#fff; text-align:center; }
+.team-member img { width:60%; border-radius:50%; margin-bottom:5px; }
+.team-member h4 { margin:2px 0; font-size:0.8em; }
+.team-member p { font-size:0.75em; }
