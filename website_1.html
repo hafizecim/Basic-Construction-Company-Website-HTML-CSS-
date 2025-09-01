@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>İnşaat Garimenkul</title>
+  <style>
+    /* Genel Sıfırlama */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: Arial, sans-serif;
+      color: #333;
+      background-color: #fff;
+      line-height: 1.6;
+    }
+    header {
+      background: #ff7f00; /* Turuncu */
+      color: #fff;
+      padding: 20px 0;
+    }
+    .container {
+      width: 90%;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+    .logo {
+      font-size: 1.8em;
+      font-weight: bold;
+    }
+    nav ul {
+      list-style: none;
+      display: flex;
+      flex-wrap: wrap;
+    }
+    nav ul li {
+      margin-left: 20px;
+    }
+    nav ul li a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .language-toggle {
+      font-size: 0.9em;
+    }
+    .language-toggle a {
+      color: #fff;
+      margin-left: 10px;
+      text-decoration: none;
+    }
+    section {
+      padding: 60px 0;
+    }
+    .section-title {
+      text-align: center;
+      margin-bottom: 40px;
+      font-size: 2em;
+      color: #ff7f00;
+    }
+    .services, .mission-vision {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+    }
+    .service-item, .mv-item {
+      flex: 1 1 300px;
+      background: #f4f4f4;
+      margin: 10px;
+      padding: 20px;
+      border-radius: 5px;
+    }
+    .contact-form {
+      max-width: 600px;
+      margin: 0 auto;
+    }
+    .contact-form input, .contact-form textarea {
+      width: 100%;
+      padding: 10px;
+      margin: 10px 0;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    .contact-form button {
+      background: #ff7f00;
+      color: #fff;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 1em;
+    }
+    footer {
+      background: #333;
+      color: #fff;
+      padding: 20px 0;
+      text-align: center;
+    }
+    footer a {
+      color: #ff7f00;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <!-- Header & Navigation -->
+  <header>
+    <div class="container">
+      <nav>
+        <div class="logo">[LOGO] İnşaat Garimenkul</div>
+        <div class="language-toggle">
+          <a href="#">TR</a> | <a href="#">EN</a>
+        </div>
+        <ul>
+          <li><a href="#home">Ana Sayfa</a></li>
+          <li><a href="#services">Hizmetler</a></li>
+          <li><a href="#about">Hakkımızda</a></li>
+          <li><a href="#projects">Projeler</a></li>
+          <li><a href="#contact">İletişim</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Ana Sayfa -->
+  <section id="home">
+    <div class="container">
+      <h1 class="section-title">Hoş Geldiniz</h1>
+      <p>
+        İnşaat Garimenkul, konut inşaatı, tadilat ve mühendislik danışmanlığı alanlarında hizmet vermektedir. Şirketimiz 2022 yılında Hafize Şenyıl tarafından kurulmuştur.
+      </p>
+    </div>
+  </section>
+
+  <!-- Hizmetler -->
+  <section id="services">
+    <div class="container">
+      <h2 class="section-title">Hizmetlerimiz</h2>
+      <div class="services">
+        <div class="service-item">
+          <h3>Konut İnşaatı</h3>
+          <p>Modern ve güvenli konut projeleri tasarlıyoruz.</p>
+        </div>
+        <div class="service-item">
+          <h3>Tadilat</h3>
+          <p>Mevcut yapıların modernize edilmesi için profesyonel tadilat hizmetleri sunuyoruz.</p>
+        </div>
+        <div class="service-item">
+          <h3>Mühendislik Danışmanlığı</h3>
+          <p>Projeleriniz için detaylı mühendislik danışmanlığı hizmetleri sağlıyoruz.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Hakkımızda / Misyon & Vizyon -->
+  <section id="about">
+    <div class="container">
+      <h2 class="section-title">Hakkımızda</h2>
+      <p>
+         İnşaat Garimenkul olarak, inşaat sektöründe yenilikçi ve kaliteli hizmet anlayışıyla müşterilerimize en iyi çözümleri sunmayı amaçlıyoruz.
+      </p>
+      <div class="mission-vision">
+        <div class="mv-item">
+          <h3>Misyon</h3>
+          <p>Müşterilerimize güvenli, modern ve estetik yaşam alanları sunmak, sürdürülebilir projeler geliştirmektir.</p>
+        </div>
+        <div class="mv-item">
+          <h3>Vizyon</h3>
+          <p>Türkiye'de inşaat ve mühendislik alanında öncü, yenilikçi ve güvenilir bir firma olmak.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projeler (Placeholder) -->
+  <section id="projects">
+    <div class="container">
+      <h2 class="section-title">Projelerimiz</h2>
+      <p>Projelerimiz yakında eklenecek. Tasarım aşamasında örnek projeler görsel olarak burada yer alacak.</p>
+      <div class="services">
+        <div class="service-item">
+          <h3>Proje 1</h3>
+          <p>Detaylar yakında...</p>
+        </div>
+        <div class="service-item">
+          <h3>Proje 2</h3>
+          <p>Detaylar yakında...</p>
+        </div>
+        <div class="service-item">
+          <h3>Proje 3</h3>
+          <p>Detaylar yakında...</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- İletişim -->
+  <section id="contact">
+    <div class="container">
+      <h2 class="section-title">Herhangi bir Projeniz var mı? Hadi Konuşalım</h2>
+      <p>Bizimle iletişime geçmek için aşağıdaki formu doldurabilirsiniz.</p>
+      <div class="contact-form">
+        <form action="#" method="post">
+          <input type="text" name="name" placeholder="Adınız Soyadınız" required>
+          <input type="email" name="email" placeholder="Email Adresiniz" required>
+          <textarea name="message" rows="5" placeholder="Mesajınız" required></textarea>
+          <button type="submit">Gönder</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>Adres: Türkiye/Konya</p>
+      <p>Telefon: <a href="tel:05306691905">0530 669 19 05</a></p>
+      <p>Kuruluş: 2022 | Hafize Şenyıl</p>
+      <p>&copy; 2022 İnşaat Garimenkul</p>
+    </div>
+  </footer>
+</body>
+</html>
