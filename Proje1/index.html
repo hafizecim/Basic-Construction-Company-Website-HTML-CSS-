@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>İnşaat Garimenkul</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div class="logo">
+        <img src="images/logo.png" alt="İnşaat Garimenkul Logo" height="50">
+      </div>
+      <div class="language-toggle">
+        <a href="#">TR</a> | <a href="#">EN</a>
+      </div>
+      <nav>
+        <ul>
+          <li><a data-section="home">Ana Sayfa</a></li>
+          <li><a data-section="services">Hizmetler</a></li>
+          <li><a data-section="about">Hakkımızda</a></li>
+          <li><a data-section="projects">Projeler</a></li>
+          <li><a data-section="contact">İletişim</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Sections -->
+  <section id="home" class="section" style="background-image: url('images/arka_plan1.jpg');">
+    <div class="overlay"></div>
+    <div class="section-content">
+      <h1>Hoş Geldiniz</h1>
+      <p>İnşaat Garimenkul, konut inşaatı, tadilat ve mühendislik danışmanlığı alanlarında hizmet vermektedir.</p>
+    </div>
+  </section>
+
+  <section id="services" class="section" style="background-image: url('images/arka_plan2.jpg');">
+    <div class="overlay"></div>
+    <div class="section-content">
+      <h2>Hizmetlerimiz</h2>
+      <div class="services">
+        <div class="service-item">
+          <h3>Konut İnşaatı</h3>
+          <p>Modern ve güvenli konut projeleri tasarlıyoruz.</p>
+        </div>
+        <div class="service-item">
+          <h3>Tadilat</h3>
+          <p>Mevcut yapıların modernize edilmesi için profesyonel tadilat hizmetleri sunuyoruz.</p>
+        </div>
+        <div class="service-item">
+          <h3>Mühendislik Danışmanlığı</h3>
+          <p>Projeleriniz için detaylı mühendislik danışmanlığı hizmetleri sağlıyoruz.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="section">
+    <div class="overlay"></div>
+    <div class="section-content">
+      <h2>Hakkımızda</h2>
+      <p>İnşaat Garimenkul olarak, inşaat sektöründe yenilikçi ve kaliteli hizmet anlayışıyla müşterilerimize en iyi çözümleri sunmayı amaçlıyoruz.</p>
+    </div>
+  </section>
+
+  <section id="projects" class="section">
+    <div class="overlay"></div>
+    <div class="section-content">
+      <h2>Projelerimiz</h2>
+      <p>Projelerimiz yakında eklenecek.</p>
+    </div>
+  </section>
+
+  <section id="contact" class="section">
+    <div class="overlay"></div>
+    <div class="section-content">
+      <h2>İletişim</h2>
+      <form id="contactForm">
+        <input type="text" name="name" placeholder="Adınız Soyadınız" required>
+        <input type="email" name="email" placeholder="Email Adresiniz" required>
+        <textarea name="message" rows="5" placeholder="Mesajınız" required></textarea>
+        <button type="submit">Gönder</button>
+      </form>
+    </div>
+  </section>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
