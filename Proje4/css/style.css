@@ -1,0 +1,98 @@
+/* Genel Sıfırlama */
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: Arial, sans-serif; }
+html { scroll-behavior: smooth; }
+
+/* Üst Navigasyon */
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+  background: rgba(0, 0, 0, 0.7);
+  padding: 10px 0;
+}
+header .container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+}
+.logo { font-size: 1.8em; font-weight: bold; }
+nav ul { list-style: none; display: flex; }
+nav ul li { margin-left: 20px; }
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+nav ul li a:hover { color: #ff7f00; }
+
+/* fullPage.js Bölüm Stilleri */
+.section {
+  text-align: center;
+  position: relative;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Arka Plan Resimleri */
+.bg-home { background: url('../images/insaat1.jpg') no-repeat center center/cover; }
+.bg-services { background: url('../images/insaat2.jpg') no-repeat center center/cover; }
+.bg-about { background: url('../images/insaat4.jpg') no-repeat center center/cover; }
+.bg-projects { background: url('../images/insaat8.png') no-repeat center center/cover; }
+.bg-contact { background: url('../images/insaat-contact.jpg') no-repeat center center/cover; }
+
+/* İçerik Kutusu */
+.section-content {
+  background: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 800px;
+  margin: 20px;
+}
+.section-content h1 { font-size: 3em; margin-bottom: 20px; }
+.section-content p { font-size: 1.2em; line-height: 1.5; }
+
+/* Hakkımızda Flex */
+.about-flex {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+.about-box { max-width: 45%; }
+
+/* İletişim Formu */
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 5px;
+}
+.contact-form button {
+  background: #ff7f00;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 1em;
+}
+
+/* Footer */
+footer {
+  background: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+footer a { color: #ff7f00; text-decoration: none; }
